@@ -1,0 +1,129 @@
+body{
+ margin: 0;
+ padding: 0px;
+ font-family: sans-serif;
+ background-color: rgb(17, 16, 16);
+}
+
+header{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(144, 4, 25, 0.879);
+    color: aliceblue;
+    align-items: center;
+}
+
+header #marca{
+    color: rgba(15, 199, 193, 0.975);
+    font-style: oblique;
+}
+
+.galeria-de-imagens{
+display: flex;
+justify-content: center;
+}
+
+
+.galeria-de-imagens img{
+height: auto;
+width: 33.3%;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(240, 238, 238, 0.2);
+transition: transform 0.3s ease;
+}
+
+.galeria-de-imagens img:hover {
+  transform: scale(1.05);
+ }
+
+#titulo{
+color: rgb(11, 91, 230);
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+ }
+
+.galeria-de-filmes{
+display: flex;
+justify-content: center;
+
+}
+
+.galeria-de-filmes img{
+height: auto;
+width: 14%;
+margin: 40px;
+max-width: 300px;
+width: 100%;
+}
+
+figcaption{
+color: rgb(230, 229, 232);
+display: flex;
+justify-content: center;
+}
+
+.galeria-de-filmes img:hover{
+  transform: scale(1.11);
+}
+
+a {
+  color: inherit; /* Faz o link herdar a cor do texto ao redor */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+h2{
+color: rgb(11, 91, 230);
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tabela th, td{
+border: 2px solid rgb(101, 159, 181);
+border-collapse: collapse;
+color: aliceblue;
+}
+
+th, td {
+ padding: 8px;              
+ text-align: center;
+ color: aliceblue;
+  }
+
+  h3,b{
+    color: aliceblue;
+  }
+
+.container {
+  display: flex;                  
+  justify-content: center;        
+  align-items: center;            
+  gap: 40px;                      
+}
+
+
+table {
+  border-collapse: collapse;      
+  width: 450px;                   
+}
+
+
+caption {
+  font-size: 1.2em;               
+  font-weight: bold;              
+  padding-bottom: 15px;           
+}
+
+
+th, td {
+  border: 1px solid aliceblue;    
+  padding: 12px;                  
+}
+  h3{
+    justify-content: center;
+    display: flex;
+  }
